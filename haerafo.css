@@ -111,7 +111,7 @@
      color: var(--cor-grupo, #fff);
      font-style: italic; } 
     
-   .circle-say {height: 120px; width: 120px; 
+   .rafocircle-say {height: 120px; width: 120px; 
      position: absolute; 
      border-radius: 100%; 
      background-size:cover; 
