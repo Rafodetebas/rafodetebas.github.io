@@ -51,9 +51,9 @@
 
     #feiticeiro .rafo { 
      --cor-grupo: #5b2491;
-     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu12.jpg");
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu18.png");
      --img-circle: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu10.jpg");
-     --img-hover: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu18.png");
+     --img-hover: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu12.jpg");
      .gabu-say: background: #101010;}
 
     #jumper .rafo { 
