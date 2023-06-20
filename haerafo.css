@@ -55,6 +55,12 @@
      --img-circle: url("https://media.giphy.com/media/MOsLtzzX377WBiNTfi/giphy.gif");
      --img-hover: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjczMmI2NjUxYTRjZTBjM2NhNTY1NGEzZGY5ZGVjOWUxZDc2ZTFhZSZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/8g5Jm7brHsRn2y6eGJ/giphy.gif");}
 
+    #feiticeiro .text-gabu {
+     background: rgba(16, 16, 16, 0.5);}
+      
+    #feiticeiro .gabu-say {
+     background: rgba(16, 16, 16, 0.5);}
+
     #jumper .rafo { 
      --cor-grupo: #79844d;}
 
