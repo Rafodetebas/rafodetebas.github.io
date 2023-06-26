@@ -180,7 +180,8 @@
      width: 150px; 
      height: min-height; 
      line-height: 10.5px; 
-     border-radius: 10px; } 
+     border-radius: 10px; 
+     a{ color: rgba(255,255,255,1);}} 
 
    .gabstip:hover .gabstiptext { 
      opacity: 1;
