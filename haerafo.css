@@ -64,7 +64,8 @@
      background: rgba(22, 22, 22, 1);}
       
     #feiticeiro .gabu-say {
-     background: rgba(22, 22, 22, 1);}
+     background: rgba(22, 22, 22, 1);color: var(--cor-grupo, #fff); font-family: 'Abhaya Libre', serif; font-size: 16px;}
+
 
     #jumper .rafo { 
      --cor-grupo: #79844d;}
