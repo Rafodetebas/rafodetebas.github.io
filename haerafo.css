@@ -72,6 +72,12 @@
     #feiticeiro .gabu-say {
      background: rgba(22, 22, 22, 1);color: var(--cor-grupo, #fff); font-family: 'Abhaya Libre', serif; font-size: 16px;}
 
+    #feiticeiro .gabu-say ig::before{ 
+    display: block; 
+    font-size:15px; 
+    padding: 0 190px; 
+    content: "⚸"; 
+    color: rgba(91, 36, 145, 1);} 
 
     #jumper .rafo { 
      --cor-grupo: #79844d;}
