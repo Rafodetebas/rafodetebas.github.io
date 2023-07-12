@@ -77,7 +77,7 @@
 
     #feiticeiro .gabu-say ig::before{ 
     display: block; 
-    font-size:15px; 
+    font-size:23px; 
     padding: 0 190px; 
     content: "⚸"; 
     color: rgba(91, 36, 145, 1);} 
