@@ -34,7 +34,7 @@
 }
     #bruxo .gabu-say ig::before{ 
     display: block; 
-    font-size:15px; 
+    font-size:25px; 
     padding: 0 190px; 
     content: "⛧"; 
     color: rgba(152,96,79,1);} 
