@@ -32,6 +32,12 @@
      --img-circle: url("https://i.imgur.com/RFSK6yU.png");
      --img-hover: url("https://media.tenor.com/tik6iUtGamoAAAAC/j%C3%A3o.gif"); 
 }
+    #bruxo .gabu-say ig::before{ 
+    display: block; 
+    font-size:15px; 
+    padding: 0 190px; 
+    content: "⛧"; 
+    color: var(--cor-grupo);} 
 
 
     #caçador .rafo { 
