@@ -34,7 +34,9 @@
 }
     #bruxo .gabu-say ig::before{ 
     display: block; 
-    font-size:25px; 
+    font-family:'Montserrat';
+    font-size:15px; 
+    font-weight:800;
     padding: 0 190px; 
     content: "⛧"; 
     color: rgba(152,96,79,1);} 
@@ -77,7 +79,9 @@
 
     #feiticeiro .gabu-say ig::before{ 
     display: block; 
-    font-size:23px; 
+    font-family:'Montserrat';
+    font-size:15px; 
+    font-weight:800;
     padding: 0 190px; 
     content: "⚸"; 
     color: rgba(91, 36, 145, 1);} 
