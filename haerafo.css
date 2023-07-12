@@ -35,7 +35,7 @@
     #bruxo .gabu-say ig::before{ 
     display: block; 
     font-family:'Montserrat';
-    font-size:15px; 
+    font-size:25px; 
     font-weight:800;
     padding: 0 190px; 
     content: "⛧"; 
@@ -80,7 +80,7 @@
     #feiticeiro .gabu-say ig::before{ 
     display: block; 
     font-family:'Montserrat';
-    font-size:15px; 
+    font-size:25px; 
     font-weight:800;
     padding: 0 190px; 
     content: "⚸"; 
