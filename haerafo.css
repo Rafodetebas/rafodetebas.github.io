@@ -45,7 +45,7 @@
     #cacador .rafo { 
     --cor-grupo: #3eb595;}
 
-    #demonio .rafo { 
+    #demônio .rafo { 
      --cor-grupo: #a3c0a2;
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/fahey_15.jpg");
      --img-circle: url("https://i.servimg.com/u/f18/20/42/99/58/quadra11.jpg");
@@ -227,7 +227,7 @@
      .gabusimg:hover{
      background-image: var(--img-hover);}
 
-     #demonio .gabusimg:hover{
+     #demônio .gabusimg:hover{
       background-color: #79A477;}
    
    .gabu-dois { 
