@@ -59,7 +59,9 @@
     font-weight:800;
     padding: 0 190px; 
     content: "⛧"; 
-    color: rgba(91, 36, 145, 1);} 
+    color:  var(--cor-grupo);} 
+
+
     #dimon .rafo { 
      --cor-grupo: #9acd32;}
     
