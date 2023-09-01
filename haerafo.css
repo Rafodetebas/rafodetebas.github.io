@@ -83,8 +83,8 @@
     #feiticeiro .gabu-say {
      background: rgba(22, 22, 22, 1);}
 
-    #feiticeiro .gabu-say e {
-     color: var(--cor-grupo, #fff); font-family: 'Abhaya Libre', serif; font-size: 16px;}
+    #feiticeiro .gabu-say e{
+     color: #AE5CFF;}
 
     #feiticeiro .gabu-say ig::before{ 
     display: block; 
