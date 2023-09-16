@@ -74,6 +74,15 @@
      --img-circle: url("https://i.servimg.com/u/f18/20/42/99/58/zartem16.png");
      --img-hover: url("https://media.tenor.com/OaV6Bn2RFCYAAAAd/rose-the-hat-doctor-sleep.gif");}
 
+    #fada .gabu-say ig::before{ 
+    display: block; 
+    font-family:'Montserrat';
+    font-size:25px; 
+    font-weight:800;
+    padding: 0 190px; 
+    content: "☽"; 
+    color: #ff8097;} 
+
     #feiticeiro .rafo { 
      --cor-grupo: rgba(91, 36, 145, 1);
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/lilitu18.png");
