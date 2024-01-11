@@ -5,8 +5,8 @@
     #dioniso .rafo { 
      --cor-grupo: var(--dionisio-baco);
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/35852910.png");
-     --img-circle: url("https://64.media.tumblr.com/72b08230e76144e699ef1202bea0ed2c/3eb926d8b4736eb5-c0/s400x600/02da0981280d97e31157dc4f81d3ff30ae3b07f0.gifv");
-     --img-hover: url(""); 
+     --img-circle: url("https://64.media.tumblr.com/c2d08025fb8999d592c10fb13bf5f2bb/6688cc753000d673-71/s540x810/5a2799e9184a0a74a9bf4839bc9b038b71d1c72a.gifv");
+     --img-hover: url("https://i.servimg.com/u/f18/20/42/99/58/35852910.png"); 
 }
     #dioniso .gabu-say ig::before{ 
     display: block; 
