@@ -18,7 +18,7 @@
     color: rgba(152,96,79,1);} 
 
    .text-gabu {
-     background: #fefefe; 
+     background: #eee; 
      height: auto; 
      width: 600px; 
      margin: auto; 
@@ -29,7 +29,7 @@
      color: #000;} 
 
    .gabu-say {
-     background: #fefefe; 
+     background: #eee; 
      width: 470px; 
      margin: 24px 25px 0 25px; font-family: 'Abhaya Libre', serif; 
      padding: 15px; 
@@ -85,7 +85,7 @@
      right: -25px;} 
    
    .text-gabu .sf {
-     background: #101010; color: #fefefe; 
+     background: #000; color: #eee; 
      height: 30px; 
      width: 30px; 
      display: block; 
@@ -96,8 +96,8 @@
      color: #333;} 
    
    .gabstiptext {
-     background-color: var(--cor-grupo, #fefefe); 
-     color: #fff; 
+     background-color: var(--cor-grupo, #eee); 
+     color: #eee; 
      font-family: Lato; 
      font-size: 9px; 
      left: 50%; 
