@@ -1,21 +1,21 @@
-.rafo { 
-    --dioniso: # ;
+ .rafo { 
+    --dioniso: rgba(152,96,79,1);
 }
    
- #dioniso .rafo { 
+    #dioniso .rafo { 
      --cor-grupo: rgba(152,96,79,1);
-     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/35852910.png");
-     --img-circle: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fayusosarchive.tumblr.com%2Fpost%2F681383565436600320%2Flinked-in-the-source-you-will-find-491-gifs-of&psig=AOvVaw2-3divSYnCMbsr3OC-aN8i&ust=1705088645750000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCjzauM1oMDFQAAAAAdAAAAABAQ");
+     --img-grupo: url("https://i.imgur.com/EunJPwX.png");
+     --img-circle: url("https://i.imgur.com/RFSK6yU.png");
      --img-hover: url("https://i.servimg.com/u/f18/20/42/99/58/valsup10.png"); 
 }
-    #bruxo .gabu-say ig::before{ 
+    #dioniso .gabu-say ig::before{ 
     display: block; 
     font-family:'Montserrat';
     font-size:25px; 
     font-weight:800;
     padding: 0 190px; 
     content: "⛧"; 
-    color: rgba(152,96,79,1);}
+    color: rgba(152,96,79,1);} 
 
    .text-gabu {
      background: #101010; 
