@@ -1,9 +1,9 @@
  .rafo { 
-    --dioniso: rgba(152,96,79,1);
+    --dioniso: var(--dionisio-baco);
 }
    
     #dioniso .rafo { 
-     --cor-grupo: rgba(152,96,79,1);
+     --cor-grupo: var(--dionisio-baco);
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/35852910.png");
      --img-circle: url("https://64.media.tumblr.com/72b08230e76144e699ef1202bea0ed2c/3eb926d8b4736eb5-c0/s400x600/02da0981280d97e31157dc4f81d3ff30ae3b07f0.gifv");
      --img-hover: url(""); 
