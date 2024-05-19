@@ -15,7 +15,7 @@
      --eros: #cc4e7d;
      --hades: #555f61;
      --helio: #C1A96D;
-     --hecate: #abb1cf;
+     --hecate: #7d0c43;
      --hefesto: #683609;
      --heracles: #b8af47;
      --hermes: #82bdc0;
@@ -170,9 +170,9 @@
  }
 
  #hecate .rafo {
-     --img-grupo: url("https://64.media.tumblr.com/d973855bec9e1e3601ce48ce445d8fb2/caa20fa76d552f19-cb/s1280x1920/e665140cba894f880bd9311092b5f0c53e648af4.pnj");
-     --img-hover: url('https://64.media.tumblr.com/5b64294d968d35d43081a0d8f9bc9718/caa20fa76d552f19-f7/s640x960/851cd4ed4a0c1007b559d89a6f1f5d743b7da55d.pnj');
-     --img-circle: url('https://64.media.tumblr.com/50ef54d756523877416e3ac210e32d61/b53520e635a4f08e-7c/s250x400/171be21de55b83d8887007219144919cf0bbe77d.gifv');
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/channe10.jpg");
+     --img-hover: url('https://i.servimg.com/u/f18/20/42/99/58/channe10.jpg');
+     --img-circle: url('https://i.servimg.com/u/f18/20/42/99/58/quadra11.jpg');
 
      --cor-grupo: #abb1cf;
  }
@@ -352,6 +352,14 @@
      content: "⛧";
      color: rgba(152, 96, 79, 1);
  }
+ #hecate .gabu-say ig::before {
+     display: block;
+     font-family: 'Montserrat';
+     font-size: 25px;
+     font-weight: 800;
+     padding: 0 190px;
+     content: "⛧";
+     color: rgba(152, 96, 79, 1);
 
  .text-gabu {
      background: #eee;
