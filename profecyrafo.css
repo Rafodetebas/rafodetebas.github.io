@@ -364,7 +364,7 @@
      background: #ffffff;
      width: 470px;
      margin: 24px 25px 0 25px;
-     font-family: 'Abhaya Libre', serif;
+     font-family: 'Montserrat';
      padding: 15px;
      font-size: 19px;
      text-align: justify;
@@ -379,11 +379,9 @@
  .gabu-say e {
      color: var(--cor-grupo, #fff);
      font-family: 'Montserrat';
-     font-size: 19px;
+     font-size: 17px;
      font-weight: 800;
  }
-
-
 
 
  .gabu-say i {
