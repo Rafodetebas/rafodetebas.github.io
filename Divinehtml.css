@@ -49,9 +49,9 @@
 
  #dante .rafo {
      --cor-grupo: #f32bdc;
-     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/310.png");
      --img-circle: url("https://64.media.tumblr.com/70e108cad5a04307e6e83eb76cce6efb/47d6efd07a781850-1d/s400x600/6ad20afbc1cea33afc76d75d1f28266b096edcbc.gifv");
-     --img-hover: url("https://64.media.tumblr.com/496927f723a186e1be376e90335e87c4/tumblr_inline_pafn5foNB21uxnbj0_400.gifv");
+     --img-hover: url("https://64.media.tumblr.com/804b5607f07234b0b3207de063e48889/4dd5a0ef8f9b7f4d-8b/s540x810/4a7abaf7ad65859241386cbe88e4126b1eed60d1.gifv");
  }
 
  #dante .gabu-say ig::before {
