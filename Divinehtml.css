@@ -72,6 +72,11 @@
     display: inline; /* Importante para não quebrar o fluxo do texto */
 }
 
+#dante .gabu-say e {
+    color: #ff7be5;
+    text-shadow: 0 0 2px rgba(0,0,0,0.3);
+}
+
  .gabu-say i {
      color: var(--cor-grupo, #fff);
      font-style: italic;
