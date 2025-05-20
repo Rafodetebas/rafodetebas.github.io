@@ -1,3 +1,4 @@
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
 .rafo {
      --leon: #412a8c
      --dante: #f32bdc
@@ -67,6 +68,7 @@
 gabu-say e {
     color: var(--cor-grupo, #fff);
     font-family: 'Montserrat', sans-serif;
+    font-style: bold
     font-size: 12.5px;
     font-weight: 800;
     display: inline;
@@ -239,5 +241,4 @@ gabu-say e {
 
  @font-face {
      font-family: 'DX Sitrus';
-     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf) @import url('https://fonts.googleapis.com/css2?family=Montserrat')
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf)
