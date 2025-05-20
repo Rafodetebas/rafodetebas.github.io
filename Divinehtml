@@ -1,1 +1,233 @@
+.rafo {
+     --Leon bioticos: #412a8c
+     --Dante cacadores: #f32bdc
+     --ciborgues: #79A1F7
+     --feiticeiros: #5b2491
+     --gorgonas: #ff8097
+     --licantropos: #ff8d00
+     --metamorfos: #C76969
+     --sereianos: #80D2F2
+     --vampiros: #821718
+}
+
+ #bioticos .rafo {
+     --cor-grupo: #412a8c;
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
+     --img-circle: url("https://64.media.tumblr.com/a0d8ebf68a6fb198ccb07097789a0354/c934947e6285a43a-0c/s540x810/f9335d0c52eaa933a58adb38603eca78609e5be6.gifv");
+     --img-hover: url("https://64.media.tumblr.com/07406d66718b93cd7d872f391a45c775/c934947e6285a43a-ec/s540x810/86e32f728f074d754f5305bd6a5641a7ede0b06e.gifv");
+ }
+
+ #bioticos .gabu-say ig::before {
+     display: block;
+     font-family: 'Montserrat';
+     font-size: 25px;
+     font-weight: 800;
+     padding: 0 190px;
+     content: "⛧";
+     color: rgba(65, 42, 140, 1);
+ }
+
+ .text-gabu {
+     background: #101010;
+     height: auto;
+     width: 600px;
+     margin: auto;
+     padding-top: 1px;
+     padding-bottom: 25px;
+     position: relative;
+     border-right: 10px solid var(--cor-grupo, #fff);
+     color: #000;
+ }
+
+ .gabu-say {
+     background: #101010;
+     width: 470px;
+     margin: 24px 25px 0 25px;
+     font-family: 'Abhaya Libre', serif;
+     padding: 15px;
+     font-size: 16px;
+     text-align: justify;
+     color: #fff;
+     font-weight: 400;
+     line-height: 17px;
+     float: left;
+     min-height: 255px;
+     white-space: pre-line;
+ }
+
+ .gabu-say e {
+     color: var(--cor-grupo, #fff);
+     font-family: 'Montserrat';
+     font-size: 12.5px;
+     font-weight: 800;
+ }
+
+
+ .gabu-say i {
+     color: var(--cor-grupo, #fff);
+     font-style: italic;
+ }
+
+ .rafocircle-say {
+     height: 120px;
+     width: 120px;
+     position: absolute;
+     border-radius: 100%;
+     background-size: cover;
+     background-image: var(--img-circle, url("https://64.media.tumblr.com/e051c8eefecfec681e64d191a611ed39/17d45248eecd995f-25/s1280x1920/cd4b6ba690497dd9c05c3470905fab62707d9831.jpg"));
+     background-color: var(--cor-grupo);
+     background-blend-mode: multiply;
+     border: 10px solid var(--cor-grupo, #fff);
+     right: -75px;
+     top: 30px;
+ }
+
+ .gabssolute1 {
+     top: 180px;
+     position: absolute;
+     right: -25px;
+ }
+
+ #cyala-sign {
+     font-size: 6px;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+     margin: 0;
+     font-family: arial;
+     margin-top: 10px;
+ }
+
+ #cyala-sign a {
+     text-decoration: none !important;
+ }
+
+ .gabssolute2 {
+     top: 230px;
+     position: absolute;
+     right: -25px;
+ }
+
+ .gabssolute3 {
+     top: 280px;
+     position: absolute;
+     right: -25px;
+ }
+
+ .text-gabu .sf {
+     background: #eee;
+     color: #000;
+     height: 30px;
+     width: 30px;
+     display: block;
+     border-radius: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 5px solid var(--cor-grupo, #fff);
+     color: #333;
+ }
+
+ .gabstiptext {
+     background-color: var(--cor-grupo, #000);
+     color: #fff;
+     font-family: Lato;
+     font-size: 9px;
+     left: 50%;
+     margin-left: -75px;
+     letter-spacing: 1px;
+     padding: 5px;
+     position: absolute;
+     text-align: center;
+     text-transform: uppercase;
+     top: 11px;
+     visibility: hidden;
+     width: 150px;
+     min-height: 10px;
+     line-height: 10.5px;
+     border-radius: 10px;
+ }
+
+ .gabstiptext a {
+     color: rgba(255, 255, 255, 1);
+ }
+
+ .gabstip:hover .gabstiptext {
+     opacity: 1;
+     visibility: visible;
+ }
+
+ .gabusimg {
+     width: 610px;
+     height: 300px;
+     background-image: var(--img-grupo, url("https://64.media.tumblr.com/882a8e74667cd78f5c0fa81a07e9a0e5/cb36446192e23925-e5/s1280x1920/01ad0a9c83e563f84276452949476141db0d2c9c.jpg"));
+     background-size: cover;
+     background-color: var(--cor-grupo, #fff);
+     background-blend-mode: multiply;
+     margin: 30px auto 0px auto;     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .gabusimg:hover {
+     background-image: var(--img-hover);
+ }
+
+ .gabusimg:hover .gabu-dois h1 {
+     visibility: hidden;
+ }
+
+ .gabusimg:hover .gabu-dois h2 {
+     visibility: visible;
+ }
+
+.gabu-dois {
+     visibility: hidden;
+     position: relative;
+     font: 50px DX Sitrus;
+     letter-spacing: -25px;
+     line-height: 90%;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+     color: rgba(245, 245, 245, 0.3);
+     text-align: center;
+     margin: 80px 0px 0px 0px;
+ }
+
+
+ .gabu-dois h2 {
+     position: relative;
+     top: 25px;
+     font: 50px DX Sitrus;
+     letter-spacing: -25px;
+     line-height: 90%;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+     color: rgba(245, 245, 245, 0.3);
+     text-align: center;
+     margin: 0px;
+ }
+
+ .gabu-dois h1 {
+     visibility: visible;
+     font: 50px DX Sitrus;
+     letter-spacing: -25px;
+     line-height: 90%;
+     text-transform: uppercase;
+     letter-spacing: 0.5px;
+     color: #f5f5f5;
+     text-align: center;
+     margin: 80px 0px 0px 0px;
+ }
+
+ @font-face {
+     font-family: 'DX Sitrus';
+     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_Expanded.otf);
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+ }
+
+ @font-face {
+     font-family: 'DX Sitrus';
+     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf) @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') @import url('https://fonts.googleapis.com/css2?family=Montserrat')
 
