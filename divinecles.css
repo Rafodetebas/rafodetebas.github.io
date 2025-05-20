@@ -1,28 +1,23 @@
-/* Cores baseadas no tema do fórum */
+/* ►►► NOVO CÓDIGO - AJUSTADO PARA O FÓRUM ◄◄◄ */
 :root {
-  --texto-primario: #333333;          /* Cor padrão para tema claro */
+  /* TEMA CLARO (PADRÃO) */
+  --fundo-primario: #F5F5F5;
+  --fundo-secundario: #FFFFFF;
+  --texto-primario: #333333;
   --texto-secundario: #555555;
-  --fundo-primario: #f8f8f8;
-  --fundo-secundario: #eeeeee;
-  --borda: #dddddd;
+  --borda: #E0E0E0;
 }
 
-/* Tema Escuro - Sobrescreve as variáveis quando .dark-mode está ativo */
-.dark-mode {
-  --texto-primario: #f0f0f0;
-  --texto-secundario: #cccccc;
-  --fundo-primario: #1a1a1a;
+/* TEMA ESCURO (O FÓRUM USA 'theme-dark' NO BODY) */
+body.theme-dark {
+  --fundo-primario: #1A1A1A;
   --fundo-secundario: #252525;
+  --texto-primario: #F0F0F0;
+  --texto-secundario: #CCCCCC;
   --borda: #444444;
 }
 
-/* Mantendo suas cores de grupo */
-.rafo {
-  --leon: #412a8c;
-  --dante: #f32bdc;
-}
-
-/* Estrutura principal com temas */
+/* ESTRUTURA PRINCIPAL */
 .text-gabu {
   background: var(--fundo-secundario);
   color: var(--texto-primario);
@@ -32,37 +27,18 @@
 .gabu-say {
   background: var(--fundo-secundario);
   color: var(--texto-primario);
+  line-height: 1.5;
 }
 
-/* Ajustes específicos para elementos */
-.gabu-say e {
-  color: var(--cor-grupo, var(--texto-primario));
+/* CORES DOS PERSONAGENS (MANTIDAS) */
+.rafo {
+  --leon: #412a8c;
+  --dante: #f32bdc;
 }
 
-/* Ajuste especial para o Dante no tema escuro */
-.dark-mode #dante .gabu-say e {
-  color: #ff8aed !important; /* Rosa mais claro para melhor contraste no escuro */
-}
-
-/* Elementos que devem manter estilo original */
-.gabusimg, .rafocircle-say {
-  /* Mantém suas definições originais */
-  background-blend-mode: multiply;
-}
-
-/* Tipografia adaptativa */
-#cyala-sign, .gabstiptext {
-  color: var(--texto-primario);
-}
-
-/* Tema claro específico para imagens */
-:not(.dark-mode) .gabusimg {
-  background-blend-mode: normal;
-}
-
-.dark-mode .gabu-dois h1 {  
-  color: #ffffff !important;  
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);  
+/* AJUSTE PARA O DANTE NO TEMA ESCURO */
+body.theme-dark #dante .gabu-say e {
+  color: #FF8AED !important; /* Rosa mais claro para contraste */
 }
 
  #leon .rafo {
