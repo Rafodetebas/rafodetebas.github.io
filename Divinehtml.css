@@ -45,7 +45,7 @@
  .text-gabu {
      background: #101010;
      height: auto;
-     width: 700px;
+     width: 600px;
      margin: auto;
      padding-top: 1px;
      padding-bottom: 25px;
@@ -74,7 +74,7 @@
 .gabu-say e {
     color: var(--cor-grupo, #fff);
     font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
-    font-size: 12.5px;
+    font-size: 15px;
     font-weight: 700; /* Negrito */
     display: inline; /* Importante para não quebrar o fluxo do texto */
 }
