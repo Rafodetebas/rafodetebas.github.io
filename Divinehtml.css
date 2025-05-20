@@ -1,23 +1,16 @@
 .rafo {
-     --bioticos: #31633E
-     --cacadores: #3EB595
-     --ciborgues: #79A1F7
-     --feiticeiros: #5b2491
-     --gorgonas: #ff8097
-     --licantropos: #ff8d00
-     --metamorfos: #C76969
-     --sereianos: #80D2F2
-     --vampiros: #821718
+     --leon: #412a8c
+     --dante: #f32bdc
 }
 
- #bioticos .rafo {
-     --cor-grupo: #31633E;
+ #leon .rafo {
+     --cor-grupo: #412a8c;
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
      --img-circle: url("https://64.media.tumblr.com/a0d8ebf68a6fb198ccb07097789a0354/c934947e6285a43a-0c/s540x810/f9335d0c52eaa933a58adb38603eca78609e5be6.gifv");
      --img-hover: url("https://64.media.tumblr.com/07406d66718b93cd7d872f391a45c775/c934947e6285a43a-ec/s540x810/86e32f728f074d754f5305bd6a5641a7ede0b06e.gifv");
  }
 
- #bioticos .gabu-say ig::before {
+ #leon .gabu-say ig::before {
      display: block;
      font-family: 'Montserrat';
      font-size: 25px;
@@ -27,6 +20,22 @@
      color: rgba(152, 96, 79, 1);
  }
 
+ #dante .rafo {
+     --cor-grupo: #f32bdc;
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
+     --img-circle: url("https://64.media.tumblr.com/a0d8ebf68a6fb198ccb07097789a0354/c934947e6285a43a-0c/s540x810/f9335d0c52eaa933a58adb38603eca78609e5be6.gifv");
+     --img-hover: url("https://64.media.tumblr.com/07406d66718b93cd7d872f391a45c775/c934947e6285a43a-ec/s540x810/86e32f728f074d754f5305bd6a5641a7ede0b06e.gifv");
+ }
+
+ #dante .gabu-say ig::before {
+     display: block;
+     font-family: 'Montserrat';
+     font-size: 25px;
+     font-weight: 800;
+     padding: 0 190px;
+     content: "⛧";
+     color: rgba(243, 43, 220, 1);
+ }
  .text-gabu {
      background: #101010;
      height: auto;
