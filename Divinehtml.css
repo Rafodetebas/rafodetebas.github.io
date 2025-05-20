@@ -1,12 +1,33 @@
-:root {
-  --texto-branco: #ffffff; /* Branco puro */
-  --texto-suave: #f0f0f0;  /* Branco levemente suavizado */
-  --fundo-escuro: #0a0a0a; /* Fundo um pouco mais escuro para melhor contraste */
-}
+/* ►►► MODO ESCURO FIXO - APENAS SUBSTITUA A PARTE INICIAL DO SEU CSS ◄◄◄ */  
+:root {  
+  --fundo-primario: #0A0A0A;  
+  --fundo-secundario: #101010;  
+  --texto-primario: #F0F0F0;  
+  --texto-secundario: #CCCCCC;  
+  --borda: #333333;  
+}  
 
-.rafo {
-     --leon: #412a8c
-     --dante: #f32bdc
+.text-gabu {  
+  background: var(--fundo-secundario);  
+  color: var(--texto-primario);  
+  border-right: 10px solid var(--cor-grupo, var(--borda));  
+}  
+
+.gabu-say {  
+  background: var(--fundo-secundario);  
+  color: var(--texto-primario);  
+  line-height: 1.5;  
+}  
+
+/* Ajuste do rosa do Dante para melhor contraste */  
+#dante .gabu-say e {  
+  color: #FF7BE5 !important;  
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);  
+}  
+
+.rafo {  
+  --leon: #412a8c;  
+  --dante: #f32bdc;  
 }
 
  #leon .rafo {
@@ -260,5 +281,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat')
-
-
