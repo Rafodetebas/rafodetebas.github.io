@@ -16,9 +16,48 @@
   --borda: #444444;
 }
 
+/* Mantendo suas cores de grupo */
 .rafo {
-     --leon: #412a8c
-     --dante: #f32bdc
+  --leon: #412a8c;
+  --dante: #f32bdc;
+}
+
+/* Estrutura principal com temas */
+.text-gabu {
+  background: var(--fundo-secundario);
+  color: var(--texto-primario);
+  border-right: 10px solid var(--cor-grupo, var(--borda));
+}
+
+.gabu-say {
+  background: var(--fundo-secundario);
+  color: var(--texto-primario);
+}
+
+/* Ajustes específicos para elementos */
+.gabu-say e {
+  color: var(--cor-grupo, var(--texto-primario));
+}
+
+/* Ajuste especial para o Dante no tema escuro */
+.dark-mode #dante .gabu-say e {
+  color: #ff8aed !important; /* Rosa mais claro para melhor contraste no escuro */
+}
+
+/* Elementos que devem manter estilo original */
+.gabusimg, .rafocircle-say {
+  /* Mantém suas definições originais */
+  background-blend-mode: multiply;
+}
+
+/* Tipografia adaptativa */
+#cyala-sign, .gabstiptext {
+  color: var(--texto-primario);
+}
+
+/* Tema claro específico para imagens */
+:not(.dark-mode) .gabusimg {
+  background-blend-mode: normal;
 }
 
  #leon .rafo {
@@ -54,21 +93,20 @@
      content: "⛧";
      color: rgba(243, 43, 220, 1);
  }
-
  .text-gabu {
-     background: var(--fundo-secundario);
+     background: #101010;
      height: auto;
      width: 600px;
      margin: auto;
      padding-top: 1px;
      padding-bottom: 25px;
      position: relative;
-     border-right: 10px solid var(--cor-grupo, var(--borda));
-     color: var(--texto-primario);
+     border-right: 10px solid var(--cor-grupo, #fff);
+     color: #000;
  }
 
  .gabu-say {
-     background: var(--fundo-secundario);
+     background: var(--fundo-escuro);
      line-height: 1.5;
      width: 470px;
      margin: 24px 25px 0 25px;
@@ -76,7 +114,7 @@
      padding: 15px;
      font-size: 16px;
      text-align: justify;
-     color: var(--texto-primario);
+     color: #fff;
      font-weight: 400;
      line-height: 17px;
      float: left;
@@ -85,15 +123,15 @@
  }
 
 .gabu-say e {
-    color: var(--cor-grupo, var(--texto-primario));
+    color: var(--cor-grupo, #fff);
     font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
-    font-size: 12.5px;
-    font-weight: 600; /* Negrito */
+    font-size: 15px;
+    font-weight: 700; /* Negrito */
     display: inline; /* Importante para não quebrar o fluxo do texto */
 }
 
-.dark-mode #dante .gabu-say e {
-    color: #ff8aed;
+#dante .gabu-say e {
+    color: #ff7be5;
     text-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
 
@@ -123,7 +161,6 @@
  }
 
  #cyala-sign {
-     color: var(--texto-primario);
      font-size: 6px;
      text-transform: uppercase;
      letter-spacing: 1px;
@@ -164,7 +201,7 @@
 
  .gabstiptext {
      background-color: var(--cor-grupo, #000);
-     color: var(--texto-primario);
+     color: #fff;
      font-family: Lato;
      font-size: 9px;
      left: 50%;
@@ -202,10 +239,6 @@
      align-items: center;
      justify-content: center;
  }
-
-:not(.dark-mode) .gabusimg {
-  background-blend-mode: normal;
-}
 
  .gabusimg:hover {
      background-image: var(--img-hover);
@@ -278,5 +311,3 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat')
-
-
