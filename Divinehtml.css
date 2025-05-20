@@ -1,3 +1,9 @@
+:root {
+  --texto-branco: #ffffff; /* Branco puro */
+  --texto-suave: #f0f0f0;  /* Branco levemente suavizado */
+  --fundo-escuro: #0a0a0a; /* Fundo um pouco mais escuro para melhor contraste */
+}
+
 .rafo {
      --leon: #412a8c
      --dante: #f32bdc
@@ -49,7 +55,8 @@
  }
 
  .gabu-say {
-     background: #101010;
+     background: var(--fundo-escuro);
+     line-height: 1.5;
      width: 470px;
      margin: 24px 25px 0 25px;
      font-family: 'Abhaya Libre', serif;
@@ -68,7 +75,7 @@
     color: var(--cor-grupo, #fff);
     font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
     font-size: 12.5px;
-    font-weight: 800; /* Negrito */
+    font-weight: 600; /* Negrito */
     display: inline; /* Importante para não quebrar o fluxo do texto */
 }
 
