@@ -60,6 +60,11 @@
   background-blend-mode: normal;
 }
 
+.dark-mode .gabu-dois h1 {  
+  color: #ffffff !important;  
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);  
+}
+
  #leon .rafo {
      --cor-grupo: #412a8c;
      --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
