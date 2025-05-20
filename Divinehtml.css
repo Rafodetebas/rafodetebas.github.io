@@ -45,7 +45,7 @@
  .text-gabu {
      background: #101010;
      height: auto;
-     width: 600px;
+     width: 700px;
      margin: auto;
      padding-top: 1px;
      padding-bottom: 25px;
@@ -75,7 +75,7 @@
     color: var(--cor-grupo, #fff);
     font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
     font-size: 12.5px;
-    font-weight: 600; /* Negrito */
+    font-weight: 700; /* Negrito */
     display: inline; /* Importante para não quebrar o fluxo do texto */
 }
 
