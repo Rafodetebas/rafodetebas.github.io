@@ -238,4 +238,15 @@
 
  @font-face {
      font-family: 'DX Sitrus';
-     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf) @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') @import url('https://fonts.googleapis.com/css2?family=Montserrat')
+     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf)
+ }
+
+    @font-face{font-family:'DX Sitrus';src:url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_Expanded.otf);font-weight:400;font-style:normal;font-display:swap;} 
+
+    @font-face{font-family:'DX Sitrus';src:url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf)
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat')
+
+
