@@ -64,11 +64,12 @@
      white-space: pre-line;
  }
 
- .gabu-say e {
-     color: var(--cor-grupo, #fff);
-     font-family: 'Montserrat';
-     font-size: 12.5px;
-     font-weight: 800;
+gabu-say e {
+    color: var(--cor-grupo, #fff);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12.5px;
+    font-weight: 800;
+    display: inline;
  }
 
 
@@ -238,4 +239,5 @@
 
  @font-face {
      font-family: 'DX Sitrus';
-     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf) @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap') @import url('https://fonts.googleapis.com/css2?family=Montserrat')
+     src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf) @import url('https://fonts.googleapis.com/css2?family=Montserrat')
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
