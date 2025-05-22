@@ -77,12 +77,12 @@
 
  .gabu-say {
      background: var(--fundo-escuro);
-     line-height: 1.5;
+     line-height: 1.6;
      width: 470px;
      margin: 24px 25px 0 25px;
      font-family: 'Abhaya Libre', serif;
      padding: 15px;
-     font-size: 16px;
+     font-size: 18px;
      text-align: justify;
      color: #fff;
      font-weight: 400;
