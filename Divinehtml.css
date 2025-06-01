@@ -108,6 +108,10 @@
 #dante .gabu-say o {
     color: #7644d8;
     text-shadow: 0 0 2px rgba(0,0,0,0.3);
+    font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
+    font-size: 15px;
+    font-weight: 700; /* Negrito */
+    display: inline; /* Importante para não quebrar o fluxo do texto */
 }
 
  .gabu-say i {
