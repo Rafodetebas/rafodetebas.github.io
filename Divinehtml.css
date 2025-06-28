@@ -106,7 +106,6 @@
     font-size: 15px;
     font-weight: 700; /* Negrito */
     display: inline; /* Importante para não quebrar o fluxo do texto */
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 #dante .gabu-say e {
