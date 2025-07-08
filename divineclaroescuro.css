@@ -4,8 +4,7 @@
 :root {
   --fundo-primario: var(--fundo1);
   --fundo-secundario: var(--fundo2);
-  --texto-primario: #000000;
-  --texto-secundario: #333333;
+  --texto-primario: var(--ctexto1);
   --borda: #cccccc;
   --fundo-escuro: #e9e9e9;
 }
@@ -14,11 +13,21 @@
   :root {
     --fundo-primario: var(--fundo1);
     --fundo-secundario: var(--fundo2);
-    --texto-primario: #F0F0F0;
-    --texto-secundario: #CCCCCC;
+    --texto-primario: var(--ctexto1);
     --borda: #333333;
     --fundo-escuro: #101010;
   }
+  
+  #dante .gabu-say e {
+  color: #ff7be5;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+  #dante .gabu-say i {
+  color: #ff7be5;
+  font-style: italic;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
 }
 
 .text-gabu {
@@ -58,11 +67,6 @@
   display: inline;
 }
 
-#dante .gabu-say e {
-  color: #ff7be5;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
-}
-
 .gabu-say o {
   color: #910980;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
@@ -75,12 +79,6 @@
 .gabu-say i {
   color: var(--cor-grupo, var(--texto-primario));
   font-style: italic;
-}
-
-#dante .gabu-say i {
-  color: #ff7be5;
-  font-style: italic;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
 }
 
 .rafo {
