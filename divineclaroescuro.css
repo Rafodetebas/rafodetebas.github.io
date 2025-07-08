@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
 :root {
-  --fundo-primario: #ffffff;
-  --fundo-secundario: #f0f0f0;
+  --fundo-primario: var(--fundo1);
+  --fundo-secundario: var(--fundo2);
   --texto-primario: #000000;
   --texto-secundario: #333333;
   --borda: #cccccc;
@@ -12,8 +12,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --fundo-primario: #0A0A0A;
-    --fundo-secundario: #101010;
+    --fundo-primario: var(--fundo1);
+    --fundo-secundario: var(--fundo2);
     --texto-primario: #F0F0F0;
     --texto-secundario: #CCCCCC;
     --borda: #333333;
