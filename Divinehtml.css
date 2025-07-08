@@ -71,6 +71,23 @@
      --img-hover: url("https://64.media.tumblr.com/c8c8061a572da85c6a119260ce73f410/aec01297da09efc6-ca/s540x810/3fc774582cf9f1597d7f0f18c17f47f339467d68.gifv");
  }
 
+ #alexei .rafo {
+     --cor-grupo: #8d8da5;
+     --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/610x3011.png");
+     --img-circle: url("https://i.servimg.com/u/f18/20/42/99/58/125x1210.png");
+     --img-hover: url("");
+ }
+
+ #alexei .gabu-say ig::before {
+     display: block;
+     font-family: 'Montserrat';
+     font-size: 25px;
+     font-weight: 800;
+     padding: 0 190px;
+     content: "⛧";
+     color: #8d8da5;
+ }
+
  .text-gabu {
      background: #101010;
      height: auto;
@@ -113,7 +130,7 @@
     text-shadow: 0 0 2px rgba(0,0,0,0.3);
 }
 
-#dante .gabu-say o {
+.gabu-say o {
     color: #910980;
     text-shadow: 0 0 2px rgba(0,0,0,0.3);
     font-family: 'Montserrat', sans-serif; /* Adicione 'sans-serif' como fallback */
