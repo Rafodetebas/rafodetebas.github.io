@@ -23,7 +23,7 @@
 }
 
 .gabu-say {
-  background: var(--fundo-escuro);
+  background: var(--fundo-secundario);
   line-height: 1.6;
   width: 470px;
   margin: 24px 25px 0 25px;
