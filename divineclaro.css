@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat');
+
+:root {
+  --fundo-primario: #ffffff;
+  --fundo-secundario: #f0f0f0;
+  --texto-primario: #000000;
+  --texto-secundario: #333333;
+  --borda: #cccccc;
+  --fundo-escuro: #e9e9e9;
+}
+
+.text-gabu {
+  background: var(--fundo-secundario);
+  height: auto;
+  width: 600px;
+  margin: auto;
+  padding-top: 1px;
+  padding-bottom: 25px;
+  position: relative;
+  border-right: 10px solid var(--cor-grupo, var(--borda));
+  color: var(--texto-primario);
+}
+
+.gabu-say {
+  background: var(--fundo-escuro);
+  line-height: 1.6;
+  width: 470px;
+  margin: 24px 25px 0 25px;
+  font-family: 'Abhaya Libre', serif;
+  padding: 15px;
+  font-size: 18px;
+  text-align: justify;
+  color: var(--texto-primario);
+  font-weight: 400;
+  line-height: 17px;
+  float: left;
+  min-height: 255px;
+  white-space: pre-line;
+}
+
+.gabu-say e {
+  color: var(--cor-grupo, var(--texto-primario));
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline;
+}
+
+#dante .gabu-say e {
+  color: #ff7be5;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.gabu-say o {
+  color: #910980;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  display: inline;
+}
+
+.gabu-say i {
+  color: var(--cor-grupo, var(--texto-primario));
+  font-style: italic;
+}
+
+#dante .gabu-say i {
+  color: #ff7be5;
+  font-style: italic;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.rafo {
+  --leon: #412a8c;
+  --dante: #f32bdc;
+}
+
+#leon .rafo {
+  --cor-grupo: #412a8c;
+  --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/ross310.png");
+  --img-circle: url("https://64.media.tumblr.com/a0d8ebf68a6fb198ccb07097789a0354/c934947e6285a43a-0c/s540x810/f9335d0c52eaa933a58adb38603eca78609e5be6.gifv");
+  --img-hover: url("https://64.media.tumblr.com/07406d66718b93cd7d872f391a45c775/c934947e6285a43a-ec/s540x810/86e32f728f074d754f5305bd6a5641a7ede0b06e.gifv");
+}
+
+#leon .gabu-say ig::before {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 800;
+  padding: 0 190px;
+  content: "⛧";
+  color: rgba(152, 96, 79, 1);
+}
+
+#dante .rafo {
+  --cor-grupo: #f32bdc;
+  --img-grupo: url("https://64.media.tumblr.com/a292a888ac2f94a0e32d1d593b146f1b/a9dd6aa1eb0c9a79-b5/s540x810/a7d0c61d354fd59d759a4b73de9a4d35e96adb06.gifv");
+  --img-circle: url("https://64.media.tumblr.com/70e108cad5a04307e6e83eb76cce6efb/47d6efd07a781850-1d/s400x600/6ad20afbc1cea33afc76d75d1f28266b096edcbc.gifv");
+  --img-hover: url("https://64.media.tumblr.com/dd4d01ef40331d6a44c4b880cfe1910f/b74f841c8bfe560c-3c/s540x810/685f88d381fadd9839c49a53b5f6ac64507d63a2.gifv");
+}
+
+#dante .gabu-say ig::before {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 800;
+  padding: 0 190px;
+  content: "⛧";
+  color: rgba(243, 43, 220, 1);
+}
+
+#ravi .rafo {
+  --cor-grupo: #1f4b81;
+  --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/610x3010.png");
+  --img-circle: url("https://64.media.tumblr.com/36eea75718265b2b52537602d39011db/3d2bae4ea1859172-b4/s250x400/4fe96ef36244be720b2aff67263fc682ebfd263c.pnj");
+  --img-hover: url("https://64.media.tumblr.com/c8c8061a572da85c6a119260ce73f410/aec01297da09efc6-ca/s540x810/3fc774582cf9f1597d7f0f18c17f47f339467d68.gifv");
+}
+
+#alexei .rafo {
+  --cor-grupo: #db0000;
+  --img-grupo: url("https://i.servimg.com/u/f18/20/42/99/58/610x3011.png");
+  --img-circle: url("https://i.servimg.com/u/f18/20/42/99/58/125x1210.png");
+  --img-hover: url("https://media1.tenor.com/m/i5dLxEiirDQAAAAC/superpowers-rand-al%27thor.gif");
+}
+
+#alexei .gabu-say ig::before {
+  display: block;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  font-weight: 800;
+  padding: 0 190px;
+  content: "⛧";
+  color: #8d8da5;
+}
+
+.rafocircle-say {
+  height: 120px;
+  width: 120px;
+  position: absolute;
+  border-radius: 100%;
+  background-size: cover;
+  background-image: var(--img-circle);
+  background-color: var(--cor-grupo);
+  background-blend-mode: multiply;
+  border: 10px solid var(--cor-grupo, var(--borda));
+  right: -75px;
+  top: 30px;
+}
+
+.gabssolute1,
+.gabssolute2,
+.gabssolute3 {
+  position: absolute;
+  right: -25px;
+}
+
+.gabssolute1 { top: 180px; }
+.gabssolute2 { top: 230px; }
+.gabssolute3 { top: 280px; }
+
+.text-gabu .sf {
+  background: var(--fundo-secundario);
+  color: var(--texto-primario);
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 5px solid var(--cor-grupo, var(--borda));
+}
+
+.gabstiptext {
+  background-color: var(--cor-grupo, var(--borda));
+  color: var(--texto-primario);
+  font-family: Lato;
+  font-size: 9px;
+  left: 50%;
+  margin-left: -75px;
+  letter-spacing: 1px;
+  padding: 5px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 11px;
+  visibility: hidden;
+  width: 150px;
+  min-height: 10px;
+  line-height: 10.5px;
+  border-radius: 10px;
+}
+
+.gabstiptext a {
+  color: rgba(255, 255, 255, 1);
+}
+
+.gabstip:hover .gabstiptext {
+  opacity: 1;
+  visibility: visible;
+}
+
+.gabusimg {
+  width: 610px;
+  height: 300px;
+  background-image: var(--img-grupo);
+  background-size: cover;
+  background-color: var(--cor-grupo, #fff);
+  background-blend-mode: multiply;
+  margin: 30px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gabusimg:hover {
+  background-image: var(--img-hover);
+}
+
+.gabusimg:hover .gabu-dois h1 {
+  visibility: hidden;
+}
+
+.gabusimg:hover .gabu-dois h2 {
+  visibility: visible;
+}
+
+.gabu-dois {
+  visibility: hidden;
+  position: relative;
+  font: 50px DX Sitrus;
+  letter-spacing: 0.5px;
+  line-height: 90%;
+  text-transform: uppercase;
+  color: rgba(245, 245, 245, 0.3);
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
+
+.gabu-dois h2 {
+  position: relative;
+  top: 25px;
+  font: 50px DX Sitrus;
+  color: rgba(245, 245, 245, 0.3);
+  margin: 0px;
+}
+
+.gabu-dois h1 {
+  visibility: visible;
+  font: 50px DX Sitrus;
+  color: #f5f5f5;
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
+
+@font-face {
+  font-family: 'DX Sitrus';
+  src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_Expanded.otf);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DX Sitrus';
+  src: url(https://files.jcink.net/uploads/panemetcircenses/DxSitrus_ExpandedItalic.otf);
+  font-style: italic;
+}
