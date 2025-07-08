@@ -150,7 +150,7 @@
 .gabssolute3 { top: 280px; }
 
 .text-gabu .sf {
-  background: var(--fundo-secundario);
+  background: #f0f0f0;
   color: var(--texto-primario);
   height: 30px;
   width: 30px;
