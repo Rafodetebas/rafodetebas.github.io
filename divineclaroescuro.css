@@ -183,7 +183,7 @@
 
 .gabstiptext {
   background-color: var(--cor-grupo, var(--borda));
-  color: var(--texto-primario);
+  color: #FFFFFF;
   font-family: Lato;
   font-size: 9px;
   left: 50%;
